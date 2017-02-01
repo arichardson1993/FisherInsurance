@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-[Route("customer")]
+[Route("claim")]
 public class CustomerCareController : Controller
 {
     public IActionResult Index()
