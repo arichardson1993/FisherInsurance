@@ -21,7 +21,8 @@ public class LifeController : Controller
            Price = 45.00M
 
        };
-        return View();
+       
+       return View(quote);
     }
 
 }

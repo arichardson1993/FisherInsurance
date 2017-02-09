@@ -21,6 +21,6 @@ public class HomeInsuranceController : Controller
            Price = 45.00M
 
        };
-        return View();
+        return View(quote);
     }
 }
